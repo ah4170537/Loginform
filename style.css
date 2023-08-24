@@ -143,8 +143,8 @@ form div span a:hover{
 }
 @media (max-width: 550px){
     .login{
-        width: 300px;
-        height: 230px;
+        width: 350px;
+        height: 260px;
         margin-top: 50px;
         box-shadow: -1px 10px 31px -7px rgba(165,34,34,0.63);
         border-radius: 20px;
@@ -197,10 +197,63 @@ form div span a:hover{
 }
 @media (max-width: 420px){
     .login{
+        width: 300px;
+        height: 220px;
+        margin-top: 45px;
+        border-radius: 15px;
+        box-shadow: -1px 8px 31px -9px rgba(165,34,34,0.63);
+    }
+    form{
+        width: 230px;
+       margin-top: 30px;
+    }
+    #d1{
+        margin-bottom: 15px;
+    }
+    .box .icon{
+        height: 90px;
+        width: 90px;
+    }
+    .box i.fa-regular{
+        font-size: 40px;
+    }
+    form div span i{
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+    form input[type="email"]{
+        font-size: 0.7rem;
+    }
+    form input[type="password"]{
+        font-size: 0.7rem;
+    }
+    form div span a{
+        font-size: 0.7rem;
+    }
+    form div span label{
+        font-size: 0.7rem;
+        margin-left: 2px;
+    }
+    form div span input{
+        height: 8px;
+    }
+    .last{
+        margin-top: 25px;
+    }
+    .button button{
+        width: 230px;
+        font-size: 0.7rem;
+        height: 40px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        box-shadow: -1px 8px 31px -9px rgba(165,34,34,0.63);
+    }
+@media (max-width: 340px){
+    .login{
         width: 250px;
         height: 180px;
-        margin-top: 40px;
-        border-radius: 15px;
+        margin-top: 35px;
+        border-radius: 10px;
         box-shadow: -1px 8px 31px -9px rgba(165,34,34,0.63);
     }
     form{
@@ -211,68 +264,15 @@ form div span a:hover{
         margin-bottom: 10px;
     }
     .box .icon{
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
     }
     .box i.fa-regular{
         font-size: 30px;
     }
     form div span i{
-        padding: 7px;
+        padding: 10px;
         font-size: 0.6rem;
-    }
-    form input[type="email"]{
-        font-size: 0.5rem;
-    }
-    form input[type="password"]{
-        font-size: 0.5rem;
-    }
-    form div span a{
-        font-size: 0.6rem;
-    }
-    form div span label{
-        font-size: 0.6rem;
-        margin-left: 2px;
-    }
-    form div span input{
-        height: 8px;
-    }
-    .last{
-        margin-top: 20px;
-    }
-    .button button{
-        width: 200px;
-        font-size: 0.6rem;
-        height: 30px;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-        box-shadow: -1px 8px 31px -9px rgba(165,34,34,0.63);
-    }
-@media (max-width: 340px){
-    .login{
-        width: 220px;
-        height: 160px;
-        margin-top: 30px;
-        border-radius: 10px;
-        box-shadow: -1px 8px 31px -9px rgba(165,34,34,0.63);
-    }
-    form{
-        width: 170px;
-       margin-top: 30px;
-    }
-    #d1{
-        margin-bottom: 7px;
-    }
-    .box .icon{
-        height: 60px;
-        width: 60px;
-    }
-    .box i.fa-regular{
-        font-size: 20px;
-    }
-    form div span i{
-        padding: 8px;
-        font-size: 0.5rem;
     }
     form input[type="email"]{
         font-size: 0.5rem;
@@ -294,7 +294,7 @@ form div span a:hover{
         margin-top: 15px;
     }
     .button button{
-        width: 170px;
+        width: 200px;
         font-size: 0.5rem;
         height: 25px;
         border-bottom-left-radius: 10px;
