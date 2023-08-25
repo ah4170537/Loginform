@@ -31,19 +31,13 @@
     width: 100%;
 }
 .box .icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 130px;
-    width: 130px;
-    border-radius: 50%; 
-    background-color: #2c3e50;
     position: absolute;
     z-index: 20;
 }
-.box i.fa-regular{
-    font-size: 60px;
-    color: white;
+.box .icon img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%; 
 }
 .login{
     width: 400px;
@@ -58,7 +52,7 @@
     z-index: 10;
     box-shadow: -1px 16px 31px -3px rgba(165,34,34,0.63);
 }
-form{
+.form{
     width: 300px;
     margin-top: 60px;
 }
@@ -121,7 +115,7 @@ form div span a{
 form div span a:hover{
     color: white;
 }
-.button button{
+.button input{
     width: 300px;
     height: 50px;
     font-size: 1rem;
@@ -135,17 +129,17 @@ form div span a:hover{
     color: white;
     box-shadow: -1px 16px 31px -3px rgba(165,34,34,0.63);
 }
-.button button:hover{
+.button input:hover{
     cursor: pointer;
 }
-.button button:active{
+.button input:active{
     opacity: 0.7;
 }
 @media (max-width: 550px){
     .login{
         width: 350px;
         height: 260px;
-        margin-top: 50px;
+        margin-top: 55px;
         box-shadow: -1px 10px 31px -7px rgba(165,34,34,0.63);
         border-radius: 20px;
     }
@@ -156,12 +150,9 @@ form div span a:hover{
     #d1{
         margin-bottom: 15px;
     }
-    .box .icon{
-        height: 100px;
-        width: 100px;
-    }
-    .box i.fa-regular{
-        font-size: 40px;
+    .box .icon img{
+        height: 110px;
+        width: 110px;
     }
     form div span i{
         padding: 10px;
@@ -186,7 +177,7 @@ form div span a:hover{
     .last{
         margin-top: 25px;
     }
-    .button button{
+    .button input{
         width: 250px;
         font-size: 0.8rem;
         height: 40px;
@@ -210,12 +201,9 @@ form div span a:hover{
     #d1{
         margin-bottom: 15px;
     }
-    .box .icon{
+    .box .icon img{
         height: 90px;
         width: 90px;
-    }
-    .box i.fa-regular{
-        font-size: 40px;
     }
     form div span i{
         padding: 10px;
@@ -240,7 +228,7 @@ form div span a:hover{
     .last{
         margin-top: 25px;
     }
-    .button button{
+    .button input{
         width: 230px;
         font-size: 0.7rem;
         height: 40px;
@@ -263,12 +251,9 @@ form div span a:hover{
     #d1{
         margin-bottom: 10px;
     }
-    .box .icon{
+    .box .icon img{
         height: 70px;
         width: 70px;
-    }
-    .box i.fa-regular{
-        font-size: 30px;
     }
     form div span i{
         padding: 10px;
@@ -293,7 +278,7 @@ form div span a:hover{
     .last{
         margin-top: 15px;
     }
-    .button button{
+    .button input{
         width: 200px;
         font-size: 0.5rem;
         height: 25px;
