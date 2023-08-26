@@ -34,10 +34,18 @@
     position: absolute;
     z-index: 20;
 }
-.box .icon img{
+.box .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 130px;
     width: 130px;
     border-radius: 50%; 
+    background-color: #2c3e50;
+}
+.box .icon i{
+    font-size: 60px;
+    color: white;
 }
 .login{
     width: 400px;
@@ -143,16 +151,19 @@ form div span a:hover{
         box-shadow: -1px 10px 31px -7px rgba(165,34,34,0.63);
         border-radius: 20px;
     }
-    form{
-        width: 250px;
+    .form{
+        width: 270px;
         margin-top: 40px
     }
     #d1{
         margin-bottom: 15px;
     }
-    .box .icon img{
+    .box .icon{
         height: 110px;
         width: 110px;
+    }
+    .box .icon i{
+        font-size: 40px;
     }
     form div span i{
         padding: 10px;
@@ -194,16 +205,19 @@ form div span a:hover{
         border-radius: 15px;
         box-shadow: -1px 8px 31px -9px rgba(165,34,34,0.63);
     }
-    form{
+    .form{
         width: 230px;
        margin-top: 30px;
     }
     #d1{
         margin-bottom: 15px;
     }
-    .box .icon img{
+    .box .icon{
         height: 90px;
         width: 90px;
+    }
+    .box .icon i{
+        font-size: 30px;
     }
     form div span i{
         padding: 10px;
@@ -244,16 +258,19 @@ form div span a:hover{
         border-radius: 10px;
         box-shadow: -1px 8px 31px -9px rgba(165,34,34,0.63);
     }
-    form{
-        width: 200px;
+    .form{
+        width: 190px;
        margin-top: 30px;
     }
     #d1{
         margin-bottom: 10px;
     }
-    .box .icon img{
+    .box .icon{
         height: 70px;
         width: 70px;
+    }
+    .box .icon i{
+        font-size: 20px;
     }
     form div span i{
         padding: 10px;
